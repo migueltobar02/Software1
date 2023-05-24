@@ -35,19 +35,44 @@
     border: 1px solid #000;
 }
 
-h1{
-    background-color: aqua;
-    padding: 20px;
-    color:#504f4f;
+.inputBox2{
+    display: flex;
+    margin-top: 20px;
 }
 
-.first{
+.inputBox2 input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.inputBox2 input:focus{
+    border: 1px solid #000;
+}
+
+.input1{
+    margin-right: 10px;
+}
+
+.input2{
+    margin-right: none;
+}
+
+h1{
+    background-color: #5624d0;
+    padding: 20px;
+    color:#fff;
+}
+
+.radio1{
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
 
-.first img{
+.radio1 img{
     margin-right: 10px;
     height: 32px;
 }
@@ -63,4 +88,35 @@ h1{
 
 .tarjetas span{
     margin-top: 10px;
+}
+
+.button {
+    margin-top: 15px;
+    display: flex;
+    padding: 10px 20px;
+    background-color: #5624d0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    float: right;
+    }
+
+    /* Estilo al pasar el cursor por encima del botón */
+.button:hover {
+    background-color: #785af6;
+}
+
+.radio2{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.radio2 img{
+    margin-right: 10px;
+    height: 64px;
 }
