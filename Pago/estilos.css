@@ -4,17 +4,35 @@
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
 }
 
 .container{
-    width: auto;
-    margin: 0 auto;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 }
 
-fieldset{
-    border:none;
+.container form{
     padding: 20px;
+    width: 700px;
+    background: #fff;
+}
+
+.container form .inputBox input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.container form .inputBox input:focus{
+    border: 1px solid #000;
 }
 
 h1{
@@ -26,6 +44,7 @@ h1{
 .first{
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
 
 .first img{
@@ -34,12 +53,14 @@ h1{
 }
 
 .tarjetas{
-    padding: 20px;
-    display: flex;
-    align-items: center;
+    margin-top: 20px;
 }
 
-.imgenes{
-    margin-left: 10px;
-    height: 32px;
+.tarjetas img{
+    float: right;
+    margin-right: 10px;
+}
+
+.tarjetas span{
+    margin-top: 10px;
 }
