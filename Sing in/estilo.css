@@ -1,0 +1,25 @@
+.form_1{
+    width: 500px;
+    background-color: #7B1CC6;
+    margin: 90px auto 200px;
+}
+
+.div_1{
+   padding-bottom: 15px;
+}
+.small_text{
+    padding-top: 1rem;
+}
+
+body{
+    background-image: url(fondo.png);
+    background-size: cover;
+    background-position: center
+    ;
+}
+
+/*.btn{
+background-color: #3D3444;
+}*/
+
+

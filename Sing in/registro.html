@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html">
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form class="form_1 shadow-lg p-3 mb-5 rounded" action="datos.php" method="post">
+
+        <h1 class="text-white">Regístrate</h1>
+        <div class="row text-white div_1">
+            <div class="form-group col">
+                <label for="Nombre">Nombres</label>
+                <input name="nombre" type="text" class="form-control" id="Nombre" aria-describedby="emailHelp" placeholder="Ingrese su Nombre">
+              </div>
+              <div class="form-group col">
+                <label for="Apellido">Apellidos</label>
+                <input name="apellido" type="text" class="form-control" id="Apellido" placeholder="Ingrese su Apellido">
+              </div>
+        </div>
+        
+        <div class="form-group text-white div_1">
+            <label for="Direccion">Dirección</label>
+            <input name="direccion" type="text" class="form-control" id="Direccion" placeholder="Ingrese su Dirección">
+          </div>
+          <div class="form-group text-white div_1">
+            <label for="Cedula">Cédula</label>
+            <input name="cedula" type="number" class="form-control" id="Cedula" placeholder="Ingrese su Cédula">
+          </div>
+          <div class="form-group text-white div_1">
+            <label for="Correo">Correo</label>
+            <input name="correo" type="email" class="form-control" id="Correo" placeholder="Ingrese su correo electronico">
+          </div>
+          <div class="form-group text-white div_1">
+            <label for="Contrasena">Contraseña</label>
+            <input name="contrasena" type="password" class="form-control" id="Contrasena" placeholder="Contraseña">
+          </div>
+        <button type="submit" name="registro" class="btn btn-dark">Regístrarse</button>
+
+      </form>
+    
+</body>
+</html>
